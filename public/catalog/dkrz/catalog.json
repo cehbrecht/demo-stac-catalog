@@ -1,0 +1,24 @@
+{
+  "stac_version": "1.0.0",
+  "type": "Catalog",
+  "id": "dkrz-internal-stac-services",
+  "title": "DKRZ Internal STAC Services",
+  "description": "Internal DKRZ STAC services. Add child links here for STAC API landing pages, static catalogs, or collections that should be visible from the demo catalog.",
+  "links": [
+    {
+      "rel": "self",
+      "type": "application/json",
+      "href": "./catalog.json"
+    },
+    {
+      "rel": "root",
+      "type": "application/json",
+      "href": "../catalog.json"
+    },
+    {
+      "rel": "parent",
+      "type": "application/json",
+      "href": "../catalog.json"
+    }
+  ]
+}
