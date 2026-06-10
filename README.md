@@ -114,6 +114,23 @@ python3 -m http.server 8080 --directory public
 Currently, several project-specific instances and VMs run their own complete
 STAC setup, including their own STAC Browser deployment.
 
+```mermaid
+flowchart LR
+  users["Users"] --> proxy["Shared VM<br>nginx proxy<br>TLS certificates"]
+  proxy --> browser["Single STAC Browser"]
+  browser --> catalog["Static STAC Catalog<br>maintained on GitHub"]
+  catalog --> wdcc["WDCC STAC API"]
+  catalog --> wwe["WWE STAC API"]
+  catalog --> eerie["EERIE STAC Catalog"]
+  catalog --> stac3["DKRZ STAC3 Service"]
+  catalog --> ceda["CEDA STAC API"]
+
+  wdcc -. future .-> elastic["Common Elasticsearch"]
+  wwe -. future .-> elastic
+  eerie -. future .-> elastic
+  stac3 -. future .-> elastic
+```
+
 The next step is to consolidate this into one shared VM that provides:
 
 - nginx as the public proxy
