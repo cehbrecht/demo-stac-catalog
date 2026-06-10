@@ -1,0 +1,42 @@
+{
+  "stac_version": "1.0.0",
+  "type": "Catalog",
+  "id": "wwe-stac-api",
+  "title": "WWE STAC API",
+  "description": "Wrapper entry for the WWE STAC FastAPI endpoint.",
+  "links": [
+    {
+      "rel": "self",
+      "type": "application/json",
+      "href": "./catalog.json"
+    },
+    {
+      "rel": "root",
+      "type": "application/json",
+      "href": "../../catalog.json"
+    },
+    {
+      "rel": "parent",
+      "type": "application/json",
+      "href": "../catalog.json"
+    },
+    {
+      "rel": "icon",
+      "type": "image/png",
+      "title": "WWE STAC API icon",
+      "href": "../../assets/wwe.png"
+    },
+    {
+      "rel": "preview",
+      "type": "image/png",
+      "title": "WWE STAC API preview",
+      "href": "../../assets/wwe.png"
+    },
+    {
+      "rel": "child",
+      "type": "application/json",
+      "title": "Open WWE STAC API",
+      "href": "https://wwestac.cloud.dkrz.de/stac-fastapi-es/"
+    }
+  ]
+}

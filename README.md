@@ -39,7 +39,9 @@ The root catalog currently links to:
 - CEDA STAC API: <https://api.stac.ceda.ac.uk/>
 - DKRZ Internal STAC Services: `public/catalog/dkrz/catalog.json`
 
-Catalog entries include local SVG preview images in `public/catalog/assets/`.
+Catalog entries include local PNG icon and preview images in `public/catalog/assets/`.
+External services are represented by small local wrapper catalogs so STAC Browser
+can show those icons before navigating onward to the remote service.
 
 The DKRZ catalog currently links to:
 

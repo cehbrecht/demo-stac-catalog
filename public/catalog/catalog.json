@@ -16,24 +16,28 @@
       "href": "./catalog.json"
     },
     {
+      "rel": "icon",
+      "type": "image/png",
+      "title": "Demo STAC Catalog icon",
+      "href": "./assets/demo-stac-catalog.png"
+    },
+    {
       "rel": "preview",
-      "type": "image/svg+xml",
+      "type": "image/png",
       "title": "Demo STAC Catalog preview",
-      "href": "./assets/demo-stac-catalog.svg"
+      "href": "./assets/demo-stac-catalog.png"
     },
     {
       "rel": "child",
       "type": "application/json",
       "title": "CEDA STAC API",
-      "href": "https://api.stac.ceda.ac.uk/",
-      "preview": "./assets/ceda.svg"
+      "href": "./ceda/catalog.json"
     },
     {
       "rel": "child",
       "type": "application/json",
       "title": "DKRZ Internal STAC Services",
-      "href": "./dkrz/catalog.json",
-      "preview": "./assets/dkrz.svg"
+      "href": "./dkrz/catalog.json"
     }
   ]
 }

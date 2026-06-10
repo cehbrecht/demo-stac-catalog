@@ -1,0 +1,42 @@
+{
+  "stac_version": "1.0.0",
+  "type": "Catalog",
+  "id": "eerie-stac-catalog",
+  "title": "EERIE STAC Catalog",
+  "description": "Wrapper entry for the EERIE STAC catalog.",
+  "links": [
+    {
+      "rel": "self",
+      "type": "application/json",
+      "href": "./catalog.json"
+    },
+    {
+      "rel": "root",
+      "type": "application/json",
+      "href": "../../catalog.json"
+    },
+    {
+      "rel": "parent",
+      "type": "application/json",
+      "href": "../catalog.json"
+    },
+    {
+      "rel": "icon",
+      "type": "image/png",
+      "title": "EERIE STAC Catalog icon",
+      "href": "../../assets/eerie.png"
+    },
+    {
+      "rel": "preview",
+      "type": "image/png",
+      "title": "EERIE STAC Catalog preview",
+      "href": "../../assets/eerie.png"
+    },
+    {
+      "rel": "child",
+      "type": "application/json",
+      "title": "Open EERIE STAC Catalog",
+      "href": "https://eerie.cloud.dkrz.de/stac-catalog-all.json"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "stac_version": "1.0.0",
+  "type": "Catalog",
+  "id": "ceda-stac-api",
+  "title": "CEDA STAC API",
+  "description": "Wrapper entry for the CEDA STAC API.",
+  "links": [
+    {
+      "rel": "self",
+      "type": "application/json",
+      "href": "./catalog.json"
+    },
+    {
+      "rel": "root",
+      "type": "application/json",
+      "href": "../catalog.json"
+    },
+    {
+      "rel": "parent",
+      "type": "application/json",
+      "href": "../catalog.json"
+    },
+    {
+      "rel": "icon",
+      "type": "image/png",
+      "title": "CEDA STAC API icon",
+      "href": "../assets/ceda.png"
+    },
+    {
+      "rel": "preview",
+      "type": "image/png",
+      "title": "CEDA STAC API preview",
+      "href": "../assets/ceda.png"
+    },
+    {
+      "rel": "child",
+      "type": "application/json",
+      "title": "Open CEDA STAC API",
+      "href": "https://api.stac.ceda.ac.uk/"
+    }
+  ]
+}

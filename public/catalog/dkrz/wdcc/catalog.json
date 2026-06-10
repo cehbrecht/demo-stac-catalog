@@ -1,0 +1,42 @@
+{
+  "stac_version": "1.0.0",
+  "type": "Catalog",
+  "id": "wdcc-stac-api",
+  "title": "WDCC STAC API",
+  "description": "Wrapper entry for the WDCC STAC API.",
+  "links": [
+    {
+      "rel": "self",
+      "type": "application/json",
+      "href": "./catalog.json"
+    },
+    {
+      "rel": "root",
+      "type": "application/json",
+      "href": "../../catalog.json"
+    },
+    {
+      "rel": "parent",
+      "type": "application/json",
+      "href": "../catalog.json"
+    },
+    {
+      "rel": "icon",
+      "type": "image/png",
+      "title": "WDCC STAC API icon",
+      "href": "../../assets/wdcc.png"
+    },
+    {
+      "rel": "preview",
+      "type": "image/png",
+      "title": "WDCC STAC API preview",
+      "href": "../../assets/wdcc.png"
+    },
+    {
+      "rel": "child",
+      "type": "application/json",
+      "title": "Open WDCC STAC API",
+      "href": "https://www.wdc-climate.de/ui/stac/v1"
+    }
+  ]
+}
