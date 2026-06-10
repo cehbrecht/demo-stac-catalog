@@ -10,8 +10,13 @@ Open the catalog in the public STAC Browser:
 
 [View in STAC Browser](https://radiantearth.github.io/stac-browser/#/external/https%3A%2F%2Fraw.githubusercontent.com%2Fcehbrecht%2Fdemo-stac-catalog%2Fmain%2Fpublic%2Fcatalog%2Fcatalog.json)
 
-Use this URL as the STAC Browser default catalog URL when the repository is
-served from GitHub Pages:
+Use this raw GitHub URL as the public STAC Browser catalog URL:
+
+```text
+https://raw.githubusercontent.com/cehbrecht/demo-stac-catalog/main/public/catalog/catalog.json
+```
+
+After GitHub Pages is enabled for this repository, you can also use:
 
 ```text
 https://cehbrecht.github.io/demo-stac-catalog/catalog/catalog.json
@@ -73,7 +78,7 @@ catalog URL instead of the relative path:
 
 ```js
 window.STAC_BROWSER_CONFIG = {
-  catalogUrl: "https://cehbrecht.github.io/demo-stac-catalog/catalog/catalog.json"
+  catalogUrl: "https://raw.githubusercontent.com/cehbrecht/demo-stac-catalog/main/public/catalog/catalog.json"
 };
 ```
 
