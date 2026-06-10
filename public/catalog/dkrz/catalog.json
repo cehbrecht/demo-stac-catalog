@@ -21,22 +21,31 @@
       "href": "../catalog.json"
     },
     {
+      "rel": "preview",
+      "type": "image/svg+xml",
+      "title": "DKRZ Internal STAC Services preview",
+      "href": "../assets/dkrz.svg"
+    },
+    {
       "rel": "child",
       "type": "application/json",
       "title": "WDCC STAC API",
-      "href": "https://www.wdc-climate.de/ui/stac/v1"
+      "href": "https://www.wdc-climate.de/ui/stac/v1",
+      "preview": "../assets/wdcc.svg"
     },
     {
       "rel": "child",
       "type": "application/json",
       "title": "WWE STAC API",
-      "href": "https://wwestac.cloud.dkrz.de/stac-fastapi-es/"
+      "href": "https://wwestac.cloud.dkrz.de/stac-fastapi-es/",
+      "preview": "../assets/wwe.svg"
     },
     {
       "rel": "child",
       "type": "application/json",
       "title": "EERIE STAC Catalog",
-      "href": "https://eerie.cloud.dkrz.de/stac-catalog-all.json"
+      "href": "https://eerie.cloud.dkrz.de/stac-catalog-all.json",
+      "preview": "../assets/eerie.svg"
     }
   ]
 }

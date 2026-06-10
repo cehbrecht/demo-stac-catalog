@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Demo STAC Catalog</title>
+  <desc id="desc">Abstract Earth observation catalog preview with linked data nodes.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#102a43"/>
+      <stop offset="0.55" stop-color="#16697a"/>
+      <stop offset="1" stop-color="#f6c85f"/>
+    </linearGradient>
+    <linearGradient id="tile" x1="0" x2="1">
+      <stop offset="0" stop-color="#f7f9fb"/>
+      <stop offset="1" stop-color="#c6e5d9"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#sky)"/>
+  <path d="M0 430 C170 370 245 500 405 438 C578 371 658 455 810 407 C965 356 1040 396 1200 332 L1200 630 L0 630 Z" fill="#0b1f33" opacity="0.72"/>
+  <path d="M0 504 C190 455 313 541 478 497 C655 449 763 517 930 469 C1052 434 1115 450 1200 416 L1200 630 L0 630 Z" fill="#123c69" opacity="0.82"/>
+  <g transform="translate(168 126)">
+    <rect x="0" y="0" width="252" height="252" rx="22" fill="url(#tile)" opacity="0.95"/>
+    <path d="M48 174 L104 110 L151 154 L194 78 L220 174 Z" fill="#0b5d6b"/>
+    <circle cx="76" cy="70" r="26" fill="#f6c85f"/>
+    <path d="M32 208 H220" stroke="#102a43" stroke-width="12" stroke-linecap="round" opacity="0.28"/>
+  </g>
+  <g fill="none" stroke="#f7f9fb" stroke-width="6" stroke-linecap="round" opacity="0.86">
+    <path d="M520 240 C600 186 666 178 746 218"/>
+    <path d="M520 300 C622 344 715 340 835 282"/>
+    <path d="M520 360 C630 428 790 420 926 350"/>
+  </g>
+  <g>
+    <circle cx="520" cy="240" r="18" fill="#f6c85f"/>
+    <circle cx="746" cy="218" r="18" fill="#c6e5d9"/>
+    <circle cx="835" cy="282" r="18" fill="#f7f9fb"/>
+    <circle cx="926" cy="350" r="18" fill="#f6c85f"/>
+    <circle cx="520" cy="300" r="18" fill="#c6e5d9"/>
+    <circle cx="520" cy="360" r="18" fill="#f7f9fb"/>
+  </g>
+  <text x="168" y="468" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="58" font-weight="700">Demo STAC Catalog</text>
+  <text x="170" y="526" fill="#dceef2" font-family="Inter, Arial, sans-serif" font-size="30">Static entrypoint for external and DKRZ services</text>
+</svg>
