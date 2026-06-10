@@ -39,6 +39,8 @@ The root catalog currently links to:
 - CEDA STAC API: <https://api.stac.ceda.ac.uk/>
 - DKRZ Internal STAC Services: `public/catalog/dkrz/catalog.json`
 
+Catalog entries include local SVG preview images in `public/catalog/assets/`.
+
 The DKRZ catalog currently links to:
 
 - WDCC STAC API: <https://www.wdc-climate.de/ui/stac/v1>
