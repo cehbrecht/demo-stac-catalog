@@ -1,0 +1,31 @@
+{
+  "stac_version": "1.0.0",
+  "type": "Catalog",
+  "id": "demo-stac-catalog",
+  "title": "Demo STAC Catalog",
+  "description": "Static demo STAC catalog that acts as a curated entrypoint for external and internal STAC API services.",
+  "links": [
+    {
+      "rel": "self",
+      "type": "application/json",
+      "href": "./catalog.json"
+    },
+    {
+      "rel": "root",
+      "type": "application/json",
+      "href": "./catalog.json"
+    },
+    {
+      "rel": "child",
+      "type": "application/json",
+      "title": "CEDA STAC API",
+      "href": "https://api.stac.ceda.ac.uk/"
+    },
+    {
+      "rel": "child",
+      "type": "application/json",
+      "title": "DKRZ Internal STAC Services",
+      "href": "./dkrz/catalog.json"
+    }
+  ]
+}
