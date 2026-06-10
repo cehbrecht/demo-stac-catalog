@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">WWE STAC API</title>
+  <desc id="desc">Preview image for the WWE STAC API catalog entry.</desc>
+  <rect width="1200" height="630" fill="#0f2437"/>
+  <path d="M0 388 C164 306 284 430 458 338 C608 258 744 362 908 286 C1042 224 1125 246 1200 204 L1200 630 L0 630 Z" fill="#3a86ff" opacity="0.76"/>
+  <path d="M0 496 C176 430 332 512 500 454 C674 394 774 490 954 412 C1064 364 1132 374 1200 348 L1200 630 L0 630 Z" fill="#43aa8b" opacity="0.82"/>
+  <g transform="translate(150 118)" fill="none" stroke="#ffffff" stroke-width="14" stroke-linecap="round" opacity="0.92">
+    <path d="M0 114 H300"/>
+    <path d="M0 186 H300"/>
+    <path d="M0 258 H300"/>
+    <path d="M72 42 V330"/>
+    <path d="M152 42 V330"/>
+    <path d="M232 42 V330"/>
+  </g>
+  <text x="150" y="494" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="68" font-weight="700">WWE</text>
+  <text x="152" y="548" fill="#e3f2fd" font-family="Inter, Arial, sans-serif" font-size="30">STAC FastAPI endpoint</text>
+</svg>

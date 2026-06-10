@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">WDCC STAC API</title>
+  <desc id="desc">Preview image for the WDCC STAC API catalog entry.</desc>
+  <rect width="1200" height="630" fill="#17324d"/>
+  <g transform="translate(140 106)">
+    <rect x="0" y="0" width="480" height="310" rx="24" fill="#f8f9fa"/>
+    <path d="M46 226 C118 150 176 250 246 174 C306 108 362 194 430 116" fill="none" stroke="#1b998b" stroke-width="18" stroke-linecap="round"/>
+    <path d="M46 152 C112 108 172 164 232 120 C298 72 352 122 430 70" fill="none" stroke="#f6c85f" stroke-width="18" stroke-linecap="round"/>
+    <g fill="#17324d" opacity="0.18">
+      <rect x="48" y="262" width="78" height="16" rx="8"/>
+      <rect x="148" y="262" width="78" height="16" rx="8"/>
+      <rect x="248" y="262" width="78" height="16" rx="8"/>
+      <rect x="348" y="262" width="78" height="16" rx="8"/>
+    </g>
+  </g>
+  <text x="140" y="494" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="68" font-weight="700">WDCC</text>
+  <text x="142" y="548" fill="#d8f3dc" font-family="Inter, Arial, sans-serif" font-size="30">Climate data catalog</text>
+</svg>

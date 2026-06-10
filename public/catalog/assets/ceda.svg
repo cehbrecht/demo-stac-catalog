@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">CEDA STAC API</title>
+  <desc id="desc">Preview image for the CEDA STAC API catalog entry.</desc>
+  <rect width="1200" height="630" fill="#112b3c"/>
+  <path d="M0 398 C156 334 302 426 464 352 C632 276 744 378 900 302 C1035 236 1120 266 1200 230 L1200 630 L0 630 Z" fill="#1b998b"/>
+  <path d="M0 484 C184 418 332 518 510 444 C676 375 776 472 940 402 C1064 350 1132 364 1200 340 L1200 630 L0 630 Z" fill="#2d728f" opacity="0.82"/>
+  <circle cx="933" cy="145" r="58" fill="#f4d35e"/>
+  <g transform="translate(140 126)" fill="none" stroke="#ffffff" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" opacity="0.9">
+    <path d="M0 210 C86 130 162 280 252 180 C330 94 404 210 494 122"/>
+    <path d="M36 280 C114 210 190 334 284 242 C362 166 442 276 548 188"/>
+  </g>
+  <text x="140" y="462" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="64" font-weight="700">CEDA</text>
+  <text x="142" y="520" fill="#e6f4f1" font-family="Inter, Arial, sans-serif" font-size="32">STAC API</text>
+</svg>
