@@ -1,3 +1,3 @@
 window.STAC_BROWSER_CONFIG = {
-  catalogUrl: "./catalog/catalog.json"
+  catalogUrl: "https://cehbrecht.github.io/demo-stac-catalog/catalog/catalog.json"
 };

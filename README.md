@@ -6,14 +6,24 @@ deployment.
 
 ## Catalog entrypoint
 
+Open the catalog in the public STAC Browser:
+
+[View in STAC Browser](https://radiantearth.github.io/stac-browser/#/external/https%3A%2F%2Fraw.githubusercontent.com%2Fcehbrecht%2Fdemo-stac-catalog%2Fmain%2Fpublic%2Fcatalog%2Fcatalog.json)
+
 Use this URL as the STAC Browser default catalog URL when the repository is
-served locally from its `public` directory:
+served from GitHub Pages:
+
+```text
+https://cehbrecht.github.io/demo-stac-catalog/catalog/catalog.json
+```
+
+When served locally from its `public` directory, use:
 
 ```text
 http://localhost:8080/catalog/catalog.json
 ```
 
-For GitHub Pages or another static host, use the equivalent hosted URL:
+For another static host, use the equivalent hosted URL:
 
 ```text
 https://<host>/<path>/catalog/catalog.json
@@ -23,6 +33,12 @@ The root catalog currently links to:
 
 - CEDA STAC API: <https://api.stac.ceda.ac.uk/>
 - DKRZ Internal STAC Services: `public/catalog/dkrz/catalog.json`
+
+The DKRZ catalog currently links to:
+
+- WDCC STAC API: <https://www.wdc-climate.de/ui/stac/v1>
+- WWE STAC API: <https://wwestac.cloud.dkrz.de/stac-fastapi-es/>
+- EERIE STAC Catalog: <https://eerie.cloud.dkrz.de/stac-catalog-all.json>
 
 ## Add internal DKRZ STAC APIs
 
@@ -53,7 +69,13 @@ window.STAC_BROWSER_CONFIG = {
 ```
 
 If STAC Browser is served separately from this catalog, use the absolute hosted
-catalog URL instead of the relative path.
+catalog URL instead of the relative path:
+
+```js
+window.STAC_BROWSER_CONFIG = {
+  catalogUrl: "https://cehbrecht.github.io/demo-stac-catalog/catalog/catalog.json"
+};
+```
 
 ## Local static server
 
