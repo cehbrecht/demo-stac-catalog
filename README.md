@@ -108,3 +108,22 @@ also works. For example:
 ```sh
 python3 -m http.server 8080 --directory public
 ```
+
+## Future plans
+
+Currently, several project-specific instances and VMs run their own complete
+STAC setup, including their own STAC Browser deployment.
+
+The next step is to consolidate this into one shared VM that provides:
+
+- nginx as the public proxy
+- TLS certificate handling
+- one shared STAC Browser instance
+- a static GitHub-maintained catalog of available STAC services
+
+This repository is intended to become that maintained static catalog. STAC
+services can stay project-specific, but discovery and browsing should happen
+through the shared STAC Browser entrypoint.
+
+In a later step, the services may also use a common Elasticsearch instance for
+shared indexing and search infrastructure.
