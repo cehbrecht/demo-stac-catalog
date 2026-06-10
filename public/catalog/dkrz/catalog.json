@@ -49,6 +49,12 @@
       "type": "application/json",
       "title": "EERIE STAC Catalog",
       "href": "./eerie/catalog.json"
+    },
+    {
+      "rel": "child",
+      "type": "application/json",
+      "title": "DKRZ STAC3 Service",
+      "href": "./stac3/catalog.json"
     }
   ]
 }

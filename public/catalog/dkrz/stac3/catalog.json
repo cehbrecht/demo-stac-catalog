@@ -1,0 +1,42 @@
+{
+  "stac_version": "1.0.0",
+  "type": "Catalog",
+  "id": "dkrz-stac3-service",
+  "title": "DKRZ STAC3 Service",
+  "description": "Wrapper entry for the empty DKRZ STAC3 service.",
+  "links": [
+    {
+      "rel": "self",
+      "type": "application/json",
+      "href": "./catalog.json"
+    },
+    {
+      "rel": "root",
+      "type": "application/json",
+      "href": "../../catalog.json"
+    },
+    {
+      "rel": "parent",
+      "type": "application/json",
+      "href": "../catalog.json"
+    },
+    {
+      "rel": "icon",
+      "type": "image/png",
+      "title": "DKRZ STAC3 Service icon",
+      "href": "../../assets/stac3.png"
+    },
+    {
+      "rel": "preview",
+      "type": "image/png",
+      "title": "DKRZ STAC3 Service preview",
+      "href": "../../assets/stac3.png"
+    },
+    {
+      "rel": "child",
+      "type": "application/json",
+      "title": "Open DKRZ STAC3 Service",
+      "href": "http://stac3.cloud.dkrz.de/stac/"
+    }
+  ]
+}

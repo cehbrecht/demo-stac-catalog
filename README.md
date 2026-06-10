@@ -48,6 +48,7 @@ The DKRZ catalog currently links to:
 - WDCC STAC API: <https://www.wdc-climate.de/ui/stac/v1>
 - WWE STAC API: <https://wwestac.cloud.dkrz.de/stac-fastapi-es/>
 - EERIE STAC Catalog: <https://eerie.cloud.dkrz.de/stac-catalog-all.json>
+- DKRZ STAC3 Service: <http://stac3.cloud.dkrz.de/stac/>
 
 ## Add internal DKRZ STAC APIs
 
