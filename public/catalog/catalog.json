@@ -28,6 +28,12 @@
       "href": "./assets/demo-stac-catalog.png"
     },
     {
+      "rel": "about",
+      "type": "text/html",
+      "title": "Demo STAC Catalog README",
+      "href": "https://github.com/cehbrecht/demo-stac-catalog#readme"
+    },
+    {
       "rel": "child",
       "type": "application/json",
       "title": "CEDA STAC API",
